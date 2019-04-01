@@ -1,2 +1,4 @@
 # py_bot
-Simple bot for VK, which using vk_api 
+Simple bot for VK, which is using vk_api 
+
+Don't forget to paste your token insted of *** on 6th line.
