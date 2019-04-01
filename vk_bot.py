@@ -1,7 +1,6 @@
 import vk_api
 import time
 import random
-# C:\Users\denis\Desktop\archive
 
 def main():
 	VK = vk_api.VkApi(token = '********')
