@@ -3,12 +3,8 @@ import time
 import random
 # C:\Users\denis\Desktop\archive
 
-# def function():
-# 	pass для оптимизации в будущем
-# ca0e63f5c20c05de00361a153f535ae6264f4f0dfd1164134792566b3eb415cd3313eb2444b00013dff5b 
-
 def main():
-	VK = vk_api.VkApi(token = '057e5a581e64ca454f9f5e3518e0832d8ae48dfebace6f58418e8faac5ec4c7929a6f042e1ce6a9ed3a07')
+	VK = vk_api.VkApi(token = '********')
 
 	try:
 		get_chat = VK.method("messages.getConversations", { "count": 1, "filter":'unanswered'})
